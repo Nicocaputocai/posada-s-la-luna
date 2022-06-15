@@ -79,20 +79,11 @@ const Home = () => {
       <br />
 
       <div>
-        <h2 className={styles.h2}>Nuestras Habitaciones</h2>
+        
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia odit
-          soluta veritatis necessitatibus omnis quas assumenda labore earum
-          autem similique incidunt, magni harum natus quasi iste dolorem nemo
-          obcaecati ex! Odit illo voluptas esse? Aut quae quas perferendis rem
-          sint, itaque dicta vitae officia debitis animi amet laborum placeat
-          temporibus, nemo voluptatem. Beatae fugit nisi aspernatur recusandae
-          ratione nostrum officiis dolor officia repellat pariatur? Dolores
-          voluptatum qui, reprehenderit facilis nihil quo corporis aut provident
-          odit excepturi impedit quam sit culpa hic porro eos expedita mollitia
-          obcaecati dolore numquam accusamus quos! Aliquid distinctio,
-          doloremque nostrum dolorum at sint maiores! Enim, maxime.
+        Nuestro Complejo está pensado como una gran casa familiar donde nuestros huéspedes podrán tener independencia con habitaciones equipadas como pequeños monoambientes, espacios comunes y en su exterior podrán disfrutar de un exterior natural inmejorable para compartir momentos de relax y relacionarse con nosotros y otros visitantes alojados en la posada .
         </p>
+        <h2 className={styles.h2}>Nuestras Habitaciones</h2>
         <CardGroup>
           <Card>
             <a href="/double-base" style={{ textDecoration: 'none', color:'black', textAlign:'center'}}>

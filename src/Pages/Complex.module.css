@@ -1,0 +1,31 @@
+.title{
+    font-family: "Dancing Script";
+    font-size: 2rem;
+    text-align: center;
+}
+.complexGrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  gap: 40px;
+  padding: 40px;
+  justify-content: center;
+}
+@media (max-widht:560px){
+  .complexGrid{
+      grid-template-columns: 100%;
+  }
+}
+.complexImage {
+  border-radius: 10px;
+  background-color: azure;
+  width: 90%;
+  height: 60px;
+  
+}
+
+@media (max-width: 560px) {
+  .complexImage {
+    width: 90%;
+    height: auto;
+  }
+}

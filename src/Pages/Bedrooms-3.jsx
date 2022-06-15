@@ -45,9 +45,13 @@ const Bedrooms3 = () =>{
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        <h3>Descripción</h3>
         <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut labore corrupti nemo suscipit itaque ratione quam quidem a. Dolor veniam quod repellat. Et, tempora quam magni repudiandae assumenda perspiciatis facilis deleniti, aliquid error rerum qui distinctio velit atque eum ut porro maiores iure quae dicta necessitatibus nostrum id cumque, blanditiis sit. Id, velit aperiam porro odit nemo laboriosam facilis doloribus quam ea voluptas cum? Quas dolore aliquid tempora voluptas! Omnis voluptatibus accusamus tempore laudantium praesentium beatae cumque eaque quae molestiae quas harum incidunt exercitationem nam minima pariatur ipsum, tempora magni esse est dignissimos consectetur. Nisi deserunt architecto assumenda labore blanditiis ut porro id error? Voluptas debitis possimus, eos mollitia quas asperiores ipsum totam voluptatem magni esse autem aperiam tenetur delectus maiores vitae quidem ea qui sint adipisci ab unde porro nulla sed consequatur. Doloribus temporibus expedita veniam inventore suscipit perferendis error quis aliquam voluptates repudiandae, numquam nemo dolor saepe quo hic accusamus ab, quasi odio. Cupiditate fuga delectus, nulla dicta suscipit odio, recusandae, beatae maxime aspernatur sapiente ab quidem voluptate reprehenderit itaque ex voluptatibus exercitationem ratione ipsum aliquam minus. Nam sunt tempore incidunt eaque asperiores facilis ducimus itaque nemo, tenetur aliquid qui? Voluptatum nihil commodi doloribus illo cumque nulla accusamus.
+        Nuestras habitaciones para 3 personas cuentan con baño privado, heladera, pava eléctrica, utensilios de cocina, tv satelital y ventilador de techo. 
+        </p>
+        <p>
+        Pueden ser con cama matrimonial más una cama individual o tres camas individuales. 
+Están distribuidas cuatro habitaciones en planta alta y dos habitaciones en planta alta. 
+
         </p>
         <CardGroup className="text-center">
           <Card border="white" >

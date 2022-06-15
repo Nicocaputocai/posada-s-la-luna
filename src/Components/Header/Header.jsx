@@ -12,20 +12,17 @@ const Header = () => {
         variant="dark"
         style={{ backgroundColor: "#320021" }}
       >
-        <Container>
+        <Container >
           <Navbar.Brand href="/" className="logos" >
             <img
               src="/logo3.jpg"
               alt="logo"
-              width="80"
-              height="60"
-              style={{ borderRadius: "50%" }}
+              width="100"
+              height="80"
+              style={{ borderRadius: "50%",margin:"auto", display: "block" }}
             />
-            {/*  Cambiar tipografía por Dancing Script */}
-            <span className={styles.title}>  Siguiendo la Luna</span>
-            <span></span>
+            <h1 className={styles.title}>  Siguiendo la Luna</h1>
           </Navbar.Brand>
-
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto" >
