@@ -1,9 +1,9 @@
-import { Carousel, Card,Button,CardGroup } from "react-bootstrap";
-
+import { Carousel, Card, Button, CardGroup } from "react-bootstrap";
+import styles from "./Home.module.css";
 const Home = () => {
   return (
     <div className="container">
-<br />
+      <br />
       <Carousel>
         <Carousel.Item>
           <img
@@ -47,55 +47,78 @@ const Home = () => {
         </Carousel.Item>
       </Carousel>
       <br />
-      <h2 className="text-center">
-        La Posada
-      </h2>
+      <h2 className={styles.h2}  >La Posada</h2>
       <p className="text-center">
-      A principios del Siglo XIX en América Latina surgen de las Posadas turísticas. El concepto “atendido por su propietario” adquiere el más noble significado para quien se hospeda en una posada turística. La atención cálida, espontánea y sincera que recibe un huésped por parte de la familia o pareja encargada de la posada, En ellas se canjea el confort de cinco estrellas por una experiencia de vida. La riqueza natural, cultural, gastronómica y humana en la que se sumerge un huésped en estas acogedoras viviendas donde a cambio de lujo se ofrece la oportunidad de conocer una región, su gente y sus costumbres. Esto es lo que buscamos recibir con sencillez, calidez y mucha predisposición a nuestros huéspedes para que disfruten de unos días de vacaciones en un lugar muy parecido a una casa donde se mezclan los ruidos de la naturaleza con los olores de tortas o comidas caseras y al retirarse se lleve un grato recuerdo de la Lucila del Mar.
-        </p>
+        Situada en el barrio residencial El Pinar de La lucila del Mar podrás
+        disfrutar de caminatas por el bosque acompañado del canto de pájaros
+        hasta llegar a nuestras amplias playas que conservan sus tradicionales
+        postales familiares.
+      </p>
+      <p className="text-center">
+        Nuestro proyecto tuvo como principal objetivo hacer sentir a nuestros
+        huéspedes como en su propia casa atendiendo con calidez y estando
+        presente las 24 horas lo que nos permitió a lo largo de los años
+        nutrirnos de diversas culturas y experiencias de nuestros huéspedes. Es
+        difícil de explicar en palabras , no quisimos ser un hotel ni un hostel
+        tampoco un complejo de departamentos o un apart, desde 2012 quisimos ser
+        Posada de mar Siguiendo la luna.
+      </p>
+      <p className="text-center">Vení a descubrirnos.</p>
       <div align="center">
         <iframe
           width="80%"
           height="400px"
-          src="https://www.youtube.com/embed/0MkrRH1_MOk"
+          src="https://www.youtube.com/embed/VQu0ZOGU-t0?autoplay=1&mute=1"
           title="YouTube video player"
+          playing={true}
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
       </div>
       <br />
-      
+
       <div>
-        <h2 className="text-center">Nuestras Habitaciones</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia odit soluta veritatis necessitatibus omnis quas assumenda labore earum autem similique incidunt, magni harum natus quasi iste dolorem nemo obcaecati ex! Odit illo voluptas esse? Aut quae quas perferendis rem sint, itaque dicta vitae officia debitis animi amet laborum placeat temporibus, nemo voluptatem. Beatae fugit nisi aspernatur recusandae ratione nostrum officiis dolor officia repellat pariatur? Dolores voluptatum qui, reprehenderit facilis nihil quo corporis aut provident odit excepturi impedit quam sit culpa hic porro eos expedita mollitia obcaecati dolore numquam accusamus quos! Aliquid distinctio, doloremque nostrum dolorum at sint maiores! Enim, maxime.</p>
-      <CardGroup>
-  <Card>
-    <a href="http://localhost:3000/double-base">
-    <Card.Img variant="top" src="./img/Habitacion-3p.jpg" />
-    <Card.Body>
-      <Card.Title>Habitaciones Dobles</Card.Title>
-    </Card.Body>
-    </a>
-  </Card>
-  <Card>
-  <a href="http://localhost:3000/triple-base">
-    <Card.Img variant="top" src="./img/Habitacion-3p.jpg" />
-    <Card.Body>
-      <Card.Title>Habitaciones Triples</Card.Title>
-    </Card.Body>
-    </a>
-  </Card>
-  <Card>
-  <a href="http://localhost:3000/quadruple-base">
-    <Card.Img variant="top" src="./img/Habitacion-3p.jpg" />
-    <Card.Body>
-      <Card.Title>Habitaciones Cuádruples</Card.Title>
-    </Card.Body>
-    </a>
-  </Card>
-</CardGroup>
-        
+        <h2 className={styles.h2}>Nuestras Habitaciones</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia odit
+          soluta veritatis necessitatibus omnis quas assumenda labore earum
+          autem similique incidunt, magni harum natus quasi iste dolorem nemo
+          obcaecati ex! Odit illo voluptas esse? Aut quae quas perferendis rem
+          sint, itaque dicta vitae officia debitis animi amet laborum placeat
+          temporibus, nemo voluptatem. Beatae fugit nisi aspernatur recusandae
+          ratione nostrum officiis dolor officia repellat pariatur? Dolores
+          voluptatum qui, reprehenderit facilis nihil quo corporis aut provident
+          odit excepturi impedit quam sit culpa hic porro eos expedita mollitia
+          obcaecati dolore numquam accusamus quos! Aliquid distinctio,
+          doloremque nostrum dolorum at sint maiores! Enim, maxime.
+        </p>
+        <CardGroup>
+          <Card>
+            <a href="/double-base" style={{ textDecoration: 'none', color:'black', textAlign:'center'}}>
+              <Card.Img variant="top" src="./img/Habitacion-3p.jpg" />
+              <Card.Body>
+                <Card.Title>Habitaciones Dobles</Card.Title>
+              </Card.Body>
+            </a>
+          </Card>
+          <Card>
+            <a href="/triple-base" style={{ textDecoration: 'none', color:'black', textAlign:'center'}}>
+              <Card.Img variant="top" src="./img/Habitacion-3p.jpg" />
+              <Card.Body>
+                <Card.Title>Habitaciones Triples</Card.Title>
+              </Card.Body>
+            </a>
+          </Card>
+          <Card>
+            <a href="/quadruple-base" style={{ textDecoration: 'none', color:'black', textAlign:'center'}}>
+              <Card.Img variant="top" src="./img/Habitacion-3p.jpg" />
+              <Card.Body>
+                <Card.Title>Habitaciones Cuádruples</Card.Title>
+              </Card.Body>
+            </a>
+          </Card>
+        </CardGroup>
       </div>
     </div>
   );
