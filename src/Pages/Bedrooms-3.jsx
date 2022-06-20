@@ -1,4 +1,6 @@
 import { Carousel, Container, Card, CardGroup, ListGroup, ListGroupItem } from "react-bootstrap";
+import FloatingWhatsApp from 'react-floating-whatsapp'
+import logo from "./assets/logo3.jpg"
 const Bedrooms3 = () =>{
 
     return (
@@ -141,6 +143,17 @@ Están distribuidas cuatro habitaciones en planta alta y dos habitaciones en pla
           </Card>
         </CardGroup>
       </Container>
+      <FloatingWhatsApp 
+        phoneNumber="5491156536531"
+        accountName="Posada Siguiendo la luna"
+        avatar={logo}
+        statusMessage=""
+        chatMessage="Hola 👋🏽 ¿En que podemos ayudarte?"
+        placeholder="Escriba su mensaje"
+        darkMode="true"
+        allowClickAway="true"
+        allowEsc= "true"
+        />
     </>
         
         </>

@@ -1,68 +1,36 @@
 import { Container, Image, Card, CardGroup } from "react-bootstrap";
 import styles from "./Complex.module.css";
+import FloatingWhatsApp from 'react-floating-whatsapp'
+import logo from "./assets/logo3.jpg"
+import Carousel from 'react-gallery-carousel';
+import 'react-gallery-carousel/dist/index.css';
 const Complex = () => {
+  const images = ["1.jpg","2.jpg","10.jpeg","11.jpg","12.JPG","13.jpeg","14.jpeg","15.jpeg"].map((number) => ({
+    src: `/img/complex/${number}`
+  }));
   return (
     <>
       <br />
       <Container>
-        <CardGroup className="complexGrip">
-          <Card>
-            <Card.Img
-              style={{ width: "100%", height: "40vh" }}
-              className="complexImage"
-              variant="top"
-              src="./img/complex/1.jpg"
-            />
-          </Card>
-          <Card>
-            <Card.Img
-              style={{ width: "100%", height: "40vh" }}
-              className="complexImage"
-              variant="top"
-              src="./img/complex/2.jpg"
-            />
-          </Card>
-          <Card>
-            <Card.Img
-              style={{ width: "100%", height: "40vh" }}
-              className="complexImage"
-              variant="top"
-              src="./img/complex/10.jpeg"
-            />
-          </Card>
-        </CardGroup>
-        <CardGroup className="complexGrip">
-          <Card>
-            <Card.Img
-              style={{ width: "100%", height: "40vh" }}
-              className="complexImage"
-              variant="top"
-              src="./img/complex/11.jpg"
-            />
-          </Card>
-          <Card>
-            <Card.Img
-              style={{ width: "100%", height: "40vh" }}
-              className="complexImage"
-              variant="top"
-              src="./img/complex/12.jpg"
-            />
-          </Card>
-          <Card>
-            <Card.Img
-              style={{ width: "100%", height: "40vh" }}
-              className="complexImage"
-              variant="top"
-              src="./img/complex/13.jpeg"
-            />
-          </Card>
-        </CardGroup>
+      <Carousel isAutoPlaying="true" images={images} style={{ height: 500, width: "auto" }} />
+      <br />
         <p className=''>
         Nuestra sala de estar sirve las veces de recepción y comunicador entre las habataciones y el complejo. Es uno de nuestros espacios comunes y cuenta con espacios de trabajo, televisión, mesas, sillones, biblioteca y juegos de mesa.
         </p>
         <p className=''>
         Rodeado de árboles frutales disfruten, plantas y flores, el parque es otro de los espacio más elegido huéspedes. Cuenta con una piscina de medianas dimensiones, multijuegos, mesas y sillas de jardín, zona de parrillas con una cocina equipada con sus elementos básicos para ser utilizados en común con los huéspedes de la posada.     
         </p>   
+        <FloatingWhatsApp 
+        phoneNumber="5491156536531"
+        accountName="Posada Siguiendo la luna"
+        avatar={logo}
+        statusMessage=""
+        chatMessage="Hola 👋🏽 ¿En que podemos ayudarte?"
+        placeholder="Escriba su mensaje"
+        darkMode="true"
+        allowClickAway="true"
+        allowEsc= "true"
+        />
       </Container>
       {/* <Container>
             <h2 className={styles.title}>Espacios comunes</h2>

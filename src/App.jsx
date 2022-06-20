@@ -8,7 +8,7 @@ import Bedrooms3 from './Pages/Bedrooms-3';
 import Bedrooms4 from './Pages/Bedrooms-4';
 import Complex from './Pages/Complex';
 import About from './Pages/About';
-import Contact from './Pages/Contact';
+// import Contact from './Pages/Contact';
 import Recomendations from './Pages/Recomendations'
 
 function App() {
@@ -38,9 +38,9 @@ function App() {
             <Route path="/about" exact>
               <About />
             </Route>
-            <Route path="/contact" exact>
+            {/* <Route path="/contact" exact>
               <Contact />
-            </Route>
+            </Route> */}
             <Route path="/recomendations" exact>
               <Recomendations />
             </Route>

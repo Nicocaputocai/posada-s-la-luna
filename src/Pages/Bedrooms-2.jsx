@@ -6,7 +6,8 @@ import {
   ListGroup,
   ListGroupItem,
 } from "react-bootstrap";
-
+import FloatingWhatsApp from 'react-floating-whatsapp'
+import logo from "./assets/logo3.jpg"
 const Bedrooms2 = () => {
   return (
     <>
@@ -113,6 +114,17 @@ const Bedrooms2 = () => {
             </Card.Body>
           </Card>
         </CardGroup>
+        <FloatingWhatsApp 
+        phoneNumber="5491156536531"
+        accountName="Posada Siguiendo la luna"
+        avatar={logo}
+        statusMessage=""
+        chatMessage="Hola 👋🏽 ¿En que podemos ayudarte?"
+        placeholder="Escriba su mensaje"
+        darkMode="true"
+        allowClickAway="true"
+        allowEsc= "true"
+        />
       </Container>
     </>
   );

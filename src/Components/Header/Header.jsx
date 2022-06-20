@@ -46,9 +46,9 @@ const Header = () => {
               <Nav.Link href="/about" >
                 Nosotros
               </Nav.Link>
-              <Nav.Link href="/contact" >
+              {/* <Nav.Link href="/contact" >
                 Contacto
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
             <Nav>
               <Nav.Link

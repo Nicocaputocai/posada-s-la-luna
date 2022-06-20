@@ -1,5 +1,7 @@
 import { Carousel, Card, Button, CardGroup } from "react-bootstrap";
 import styles from "./Home.module.css";
+import FloatingWhatsApp from 'react-floating-whatsapp'
+import logo from "./assets/logo3.jpg"
 const Home = () => {
   return (
     <div className="container">
@@ -111,6 +113,17 @@ const Home = () => {
           </Card>
         </CardGroup>
       </div>
+      <FloatingWhatsApp 
+        phoneNumber="5491156536531"
+        accountName="Posada Siguiendo la luna"
+        avatar={logo}
+        statusMessage=""
+        chatMessage="Hola 👋🏽 ¿En que podemos ayudarte?"
+        placeholder="Escriba su mensaje"
+        darkMode="true"
+        allowClickAway="true"
+        allowEsc= "true"
+        />
     </div>
   );
 };
