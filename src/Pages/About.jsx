@@ -21,11 +21,10 @@ const About = () => {
               <br />
               <br />
               <Card.Img variant="bottom" src="./img/Nosotros.jpg" style={{}} />
+              <br />
+              <br />
               <Card.Text style={{ paddingLeft: "5px" }}>
-                Nuestra posada es un lugar armonioso donde nuestros huéspedes
-                por algunos días se olvidan de la vida acelerada que llevan
-                durante el año laboral y disfrutar de la paz del entorno y de
-                ser atendido con calidez.
+              La Posada fue pensada como un gran proyecto familiar donde todos colaboramos para que cada uno que nos visite disfrute de sus vacaciones en un lugar muy parecido a una casa donde se mezclan los ruidos de la naturaleza con los olores de tortas o comidas caseras y al retirarse se lleven un gran recuerdo nuestro, así como de La lucila del mar.
               </Card.Text>
             </Col>
             <Col>
