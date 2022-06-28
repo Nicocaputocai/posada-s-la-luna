@@ -89,7 +89,7 @@ const Home = () => {
         <CardGroup>
           <Card>
             <a href="/base-doble" style={{ textDecoration: 'none', color:'black', textAlign:'center'}}>
-              <Card.Img variant="top" src="./img/Habitacion-2p.jpg" />
+              <Card.Img variant="top" src="./img/Habitacion-2p.JPG" />
               <Card.Body>
                 <Card.Title>Habitaciones Dobles</Card.Title>
               </Card.Body>
@@ -97,7 +97,7 @@ const Home = () => {
           </Card>
           <Card>
             <a href="/base-triple" style={{ textDecoration: 'none', color:'black', textAlign:'center'}}>
-              <Card.Img variant="top" src="./img/Habitacion-3p.jpg" />
+              <Card.Img variant="top" src="./img/Habitacion-3p.JPG" />
               <Card.Body>
                 <Card.Title>Habitaciones Triples</Card.Title>
               </Card.Body>
@@ -105,7 +105,7 @@ const Home = () => {
           </Card>
           <Card>
             <a href="/base-cuadruple" style={{ textDecoration: 'none', color:'black', textAlign:'center'}}>
-              <Card.Img variant="top" src="./img/Habitacion-4p.jpg" />
+              <Card.Img variant="top" src="./img/Habitacion-4p.JPG" />
               <Card.Body>
                 <Card.Title>Habitaciones Cuádruples</Card.Title>
               </Card.Body>
