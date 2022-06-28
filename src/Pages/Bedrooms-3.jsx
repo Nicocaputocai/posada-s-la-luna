@@ -1,52 +1,17 @@
-import { Carousel, Container, Card, CardGroup, ListGroup, ListGroupItem } from "react-bootstrap";
+import {Container, Card, CardGroup, ListGroup, ListGroupItem } from "react-bootstrap";
 import FloatingWhatsApp from 'react-floating-whatsapp'
 import logo from "./assets/logo3.jpg"
+import Carousel from 'react-gallery-carousel';
+import 'react-gallery-carousel/dist/index.css';
 const Bedrooms3 = () =>{
-
+  const images = ["1.JPG","2.JPG","3.JPG","4.JPG","5.JPG","6.JPG"].map((number) => ({
+    src: `/img/hab-3/${number}`
+  }));
     return (
         <>
            <> <br />
       <Container>
-        <Carousel>
-          <Carousel.Item interval={1000}>
-            <img
-              className="d-block w-100"
-              src="./img/Foto-Posada.jpg"
-              alt="First slide"
-              height={450}
-            />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item interval={500}>
-            <img
-              className="d-block w-100"
-              src="./img/Foto-Posada.jpg"
-              alt="First slide"
-              height={450}
-            />
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="./img/Foto-Posada.jpg"
-              alt="First slide"
-              height={450}
-            />
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
+      <Carousel objectFit="scale-down" isAutoPlaying="true" images={images} style={{ height: 600, width: "auto" }} />
         <p>
         Nuestras habitaciones para 3 personas cuentan con baño privado, heladera, pava eléctrica, utensilios de cocina, tv satelital y ventilador de techo. 
         </p>

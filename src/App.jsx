@@ -22,26 +22,26 @@ function App() {
               <Home />
             </Route>
 
-            <Route path="/double-base">
+            <Route path="/base-doble">
               <Bedrooms2 />
             </Route>
-            <Route path="/triple-base">
+            <Route path="/base-triple">
               <Bedrooms3 />
             </Route>
-            <Route path="/quadruple-base">
+            <Route path="/base-cuadruple">
               <Bedrooms4 />
             </Route>
   
-            <Route path="/complex" exact>
+            <Route path="/complejo" exact>
               <Complex />
             </Route>
-            <Route path="/about" exact>
+            <Route path="/nosotros" exact>
               <About />
             </Route>
             {/* <Route path="/contact" exact>
               <Contact />
             </Route> */}
-            <Route path="/recomendations" exact>
+            <Route path="/recomendaciones" exact>
               <Recomendations />
             </Route>
 

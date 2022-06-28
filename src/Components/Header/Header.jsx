@@ -27,23 +27,23 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto" >
               <NavDropdown title="Habitaciones" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="/double-base">
+                <NavDropdown.Item href="/base-doble">
                   Dobles
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/triple-base">
+                <NavDropdown.Item href="/base-triple">
                   Triples
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/quadruple-base">
+                <NavDropdown.Item href="/base-cuadruple">
                   Cuádruples
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/complex" >
+              <Nav.Link href="/complejo" >
                 Complejo
               </Nav.Link>
-              <Nav.Link href="/recomendations" >
+              <Nav.Link href="/recomendaciones" >
                 Recomendaciones
               </Nav.Link>
-              <Nav.Link href="/about" >
+              <Nav.Link href="/nosotros" >
                 Nosotros
               </Nav.Link>
               {/* <Nav.Link href="/contact" >

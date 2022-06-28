@@ -5,14 +5,14 @@ import logo from "./assets/logo3.jpg"
 import Carousel from 'react-gallery-carousel';
 import 'react-gallery-carousel/dist/index.css';
 const Complex = () => {
-  const images = ["1.jpg","2.jpg","10.jpeg","11.jpg","12.JPG","13.jpeg","14.jpeg","15.jpeg"].map((number) => ({
+  const images = ["1.jpg","2.jpg","10.jpeg","11.jpg","12.JPG","13.jpeg","14.jpeg","15.jpeg","16.jpg","17.jpeg"].map((number) => ({
     src: `/img/complex/${number}`
   }));
   return (
     <>
       <br />
       <Container>
-      <Carousel isAutoPlaying="true" images={images} style={{ height: 500, width: "auto" }} />
+      <Carousel objectFit="scale-down" isAutoPlaying="true" images={images} style={{ height: 500, width: "auto" }} />
       <br />
         <p className=''>
         Nuestra sala de estar sirve las veces de recepción y comunicador entre las habataciones y el complejo. Es uno de nuestros espacios comunes y cuenta con espacios de trabajo, televisión, mesas, sillones, biblioteca y juegos de mesa.

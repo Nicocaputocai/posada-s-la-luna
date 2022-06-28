@@ -88,15 +88,15 @@ const Home = () => {
         <h2 className={styles.h2}>Nuestras Habitaciones</h2>
         <CardGroup>
           <Card>
-            <a href="/double-base" style={{ textDecoration: 'none', color:'black', textAlign:'center'}}>
-              <Card.Img variant="top" src="./img/Habitacion-3p.jpg" />
+            <a href="/base-doble" style={{ textDecoration: 'none', color:'black', textAlign:'center'}}>
+              <Card.Img variant="top" src="./img/Habitacion-2p.jpg" />
               <Card.Body>
                 <Card.Title>Habitaciones Dobles</Card.Title>
               </Card.Body>
             </a>
           </Card>
           <Card>
-            <a href="/triple-base" style={{ textDecoration: 'none', color:'black', textAlign:'center'}}>
+            <a href="/base-triple" style={{ textDecoration: 'none', color:'black', textAlign:'center'}}>
               <Card.Img variant="top" src="./img/Habitacion-3p.jpg" />
               <Card.Body>
                 <Card.Title>Habitaciones Triples</Card.Title>
@@ -104,8 +104,8 @@ const Home = () => {
             </a>
           </Card>
           <Card>
-            <a href="/quadruple-base" style={{ textDecoration: 'none', color:'black', textAlign:'center'}}>
-              <Card.Img variant="top" src="./img/Habitacion-3p.jpg" />
+            <a href="/base-cuadruple" style={{ textDecoration: 'none', color:'black', textAlign:'center'}}>
+              <Card.Img variant="top" src="./img/Habitacion-4p.jpg" />
               <Card.Body>
                 <Card.Title>Habitaciones Cuádruples</Card.Title>
               </Card.Body>
