@@ -97,7 +97,7 @@ const Home = () => {
           </Card>
           <Card>
             <a href="/base-triple" style={{ textDecoration: 'none', color:'black', textAlign:'center'}}>
-              <Card.Img variant="top" src="./img/Habitacion-3p.JPG" />
+              <Card.Img variant="top" src="./img/hab-3/2.JPG" />
               <Card.Body>
                 <Card.Title>Habitaciones Triples</Card.Title>
               </Card.Body>
