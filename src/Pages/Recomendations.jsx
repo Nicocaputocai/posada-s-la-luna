@@ -62,7 +62,7 @@ const Recomendations = () => {
         restos de una embarcación llamada "mar del sur" que en 1924 encalló y
         quedan como testigo los restos calcinados de su caldera que se podrán
         ver en baja mar. El Mar del sur es una de las tantas embarcaciones que
-        en esa época quedaron encallados muchas embarcaciones a lo largo de la
+        en esa época quedaron encalladas a lo largo de la
         costa bonaerense.
       </p>
       

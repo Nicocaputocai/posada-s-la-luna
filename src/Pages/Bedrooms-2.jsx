@@ -22,7 +22,7 @@ const Bedrooms2 = () => {
       <Carousel objectFit="scale-down" isAutoPlaying="true" images={images} style={{ height: 600, width: "auto" }} />
        
         <p>
-          Habitaciones para 2 personas Nuestras habitaciones para 2 personas
+          Nuestras habitaciones para 2 personas
           cuentan con baño privado, heladera, pava eléctrica, utensilios de
           cocina, tv satelital y ventilador de techo.
         </p>

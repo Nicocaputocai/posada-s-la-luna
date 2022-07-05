@@ -32,8 +32,8 @@ const About = () => {
                 <Card.Title>Misión</Card.Title>
                 <Card.Text>
                   Cuidar a nuestros huéspedes como familiares, disfrutando de la
-                  magia de la posada y descubran a nuestra Lucila del mar para
-                  adoptarla como propia.
+                  magia de la posada y al descrubir la Lucila del mar, la
+                  adopten como propia.
                 </Card.Text>
                 <Card.Title>Visión</Card.Title>
                 <Card.Text>
@@ -68,7 +68,7 @@ const About = () => {
                     </li>
                     <br />
                     <li>
-                      Humanidad: transmitirconfianza, sentimientos y
+                      Humanidad: transmitir confianza, sentimientos y
                       personalidad para empatizar con nuestros visitantes,
                       hacerlos sentir cuidados y contenidos en lo cotidiano de
                       sus vacaciones.

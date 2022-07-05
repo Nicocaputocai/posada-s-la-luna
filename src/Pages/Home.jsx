@@ -83,7 +83,7 @@ const Home = () => {
       <div>
         
         <p>
-        Nuestro Complejo está pensado como una gran casa familiar donde nuestros huéspedes podrán tener independencia con habitaciones equipadas como pequeños monoambientes, espacios comunes y en su exterior podrán disfrutar de un exterior natural inmejorable para compartir momentos de relax y relacionarse con nosotros y otros visitantes alojados en la posada .
+        Nuestro Complejo está pensado como una gran casa familiar donde nuestros huéspedes podrán tener independencia con habitaciones equipadas como pequeños monoambientes, espacios comunes y en su exterior podrán disfrutar de un entorno natural inmejorable para compartir momentos de relax y relacionarse con nosotros y otros visitantes alojados en la posada .
         </p>
         <h2 className={styles.h2}>Nuestras Habitaciones</h2>
         <CardGroup>
