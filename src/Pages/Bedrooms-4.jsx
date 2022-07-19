@@ -11,7 +11,7 @@ import logo from "./assets/logo3.jpg"
 import Carousel from 'react-gallery-carousel';
 import 'react-gallery-carousel/dist/index.css';
 const Bedrooms4 = () => {
-  const images = ["1.JPG","2.JPG","3.jpeg","4.jpg","5.JPG","6.JPG","7.JPG","8.JPG"].map((number) => ({
+  const images = ["1.JPG","2.JPG","3.jpeg","4.jpeg","5.jpeg","6.JPG","7.jpeg","8.jpeg","9.jpeg","10.JPG","11.JPG","12.JPG"].map((number) => ({
     src: `/img/hab-4/${number}`
   }));
   return (

@@ -6,45 +6,42 @@ const Home = () => {
   return (
     <div className="container">
       <br />
-      <Carousel>
+      <Carousel >
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./img/Foto-Posada.jpg"
-            alt="First slide"
+            src="./img/Frente.jpeg"
+            alt="Frente"
             height={450}
+            
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Veni a vivir la experiencia Siguiendo la Luna</h3>
+            
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./img/Foto-Posada.jpg"
-            alt="First slide"
+            src="./img/parque.jpeg"
+            alt="Parque"
             height={450}
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3 color="black">Veni a vivir la experiencia Siguiendo la Luna</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./img/Foto-Posada.jpg"
-            alt="First slide"
+            src="./img/amanecer muelle.jpg"
+            alt="Desayuno"
             height={450}
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>Veni a vivir la experiencia Siguiendo la Luna</h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
