@@ -16,7 +16,7 @@ const Home = () => {
             
           />
           <Carousel.Caption>
-            <h3>Veni a vivir la experiencia Siguiendo la Luna</h3>
+            <h3> Veni a vivir la experiencia Siguiendo la Luna </h3>
             
           </Carousel.Caption>
         </Carousel.Item>
@@ -29,7 +29,7 @@ const Home = () => {
           />
 
           <Carousel.Caption>
-            <h3 color="black">Veni a vivir la experiencia Siguiendo la Luna</h3>
+            <h3 color="black"> Veni a vivir la experiencia Siguiendo la Luna </h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -41,7 +41,7 @@ const Home = () => {
           />
 
           <Carousel.Caption>
-            <h3>Veni a vivir la experiencia Siguiendo la Luna</h3>
+            <h3> Veni a vivir la experiencia Siguiendo la Luna </h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
