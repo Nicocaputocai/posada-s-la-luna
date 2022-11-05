@@ -1,9 +1,14 @@
 import logo from "./assets/logo3.jpg";
+import {Helmet} from "react-helmet"
 import FloatingWhatsApp from "react-floating-whatsapp";
 import { Container } from "react-bootstrap";
 const Recomendations = () => {
   return (
     <Container>
+                           <Helmet>
+      <title>Recomendaciones - Siguendo la Luna</title>
+      <meta name="description" content="Recomendaciones turísticas de las cercanías de la Posada de Mar - Siguiendo la Luna"/>
+    </Helmet>
       <h2
         style={{
           textAlign: "center",

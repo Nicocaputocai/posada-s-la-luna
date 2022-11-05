@@ -1,10 +1,15 @@
 import { Carousel, Card, Button, CardGroup } from "react-bootstrap";
+import {Helmet} from "react-helmet"
 import styles from "./Home.module.css";
 import FloatingWhatsApp from 'react-floating-whatsapp'
 import logo from "./assets/logo3.jpg"
 const Home = () => {
   return (
     <div className="container">
+                           <Helmet>
+      <title>Home - Siguendo la Luna</title>
+      <meta name="description" content="Página principal de la Posada de Mar Siguiendo la Luna"/>
+    </Helmet>
       <br />
       <Carousel >
         <Carousel.Item>

@@ -1,4 +1,5 @@
 import { Container, Image, Card, CardGroup } from "react-bootstrap";
+import {Helmet} from "react-helmet"
 import styles from "./Complex.module.css";
 import FloatingWhatsApp from 'react-floating-whatsapp'
 import logo from "./assets/logo3.jpg"
@@ -10,6 +11,10 @@ const Complex = () => {
   }));
   return (
     <>
+                         <Helmet>
+      <title>Complejo - Siguendo la Luna</title>
+      <meta name="description" content="Fotos e información sobre las prestaciones que tiene el complejo de la Posada de Mar Siguiendo la Luna"/>
+    </Helmet>
       <br />
       <Container>
       <Carousel objectFit="scale-down" isAutoPlaying="true" images={images} style={{ height: 500, width: "auto" }} />
