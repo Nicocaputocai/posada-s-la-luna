@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
              <Helmet>
-      <title>Nosotros - Siguendo la Luna</title>
+      <title>Nosotros - Siguendo la Luna </title>
       <meta name="description" content="Sobre nosotros - Siguiendo la Luna"/>
     </Helmet>
       <Container>

@@ -20,7 +20,7 @@ const Recomendations = () => {
       </h2>
       <h4 style={{ fontFamily: "Dancing Script" }}>Playa</h4>
       <p>
-        A setecientos metros podemos disfrutar de amplias playas caracterizadas
+        A setecientos metros de la posada podemos disfrutar de amplias playas caracterizadas
         por su ambiente familiar, balnearios con todos los servicios y una zona
         de bajada náutica.
       </p>
