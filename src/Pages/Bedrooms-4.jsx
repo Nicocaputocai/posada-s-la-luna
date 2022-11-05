@@ -6,6 +6,7 @@ import {
   ListGroup,
   ListGroupItem,
 } from "react-bootstrap";
+import {Helmet} from "react-helmet"
 import FloatingWhatsApp from 'react-floating-whatsapp'
 import logo from "./assets/logo3.jpg"
 import Carousel from 'react-gallery-carousel';
@@ -15,7 +16,13 @@ const Bedrooms4 = () => {
     src: `/img/hab-4/${number}`
   }));
   return (
+    <>
+                         <Helmet>
+                         <title>Habitaciones Cuadruples - Siguendo la Luna</title>
+      <meta name="description" content="Habitaciones Cuadruples - Siguiendo la Luna"/>
+    </Helmet>
         <Container>
+          
           <Carousel objectFit="scale-down" isAutoPlaying="true" images={images} style={{ height: 600, width: "auto" }} />
 
           <br />
@@ -94,6 +101,7 @@ const Bedrooms4 = () => {
         allowEsc= "true"
         />
         </Container>
+        </>
   );
 };
 

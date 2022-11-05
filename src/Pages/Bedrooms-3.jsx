@@ -1,4 +1,5 @@
 import {Container, Card, CardGroup, ListGroup, ListGroupItem } from "react-bootstrap";
+import {Helmet} from "react-helmet"
 import FloatingWhatsApp from 'react-floating-whatsapp'
 import logo from "./assets/logo3.jpg"
 import Carousel from 'react-gallery-carousel';
@@ -9,6 +10,11 @@ const Bedrooms3 = () =>{
   }));
     return (
         <>
+                     <Helmet>
+                     <title>Habitaciones Triples - Siguendo la Luna</title>
+      <meta name="description" content="Habitaciones Triples - Siguiendo la Luna"/>
+    </Helmet>
+      <Container></Container>
            <> <br />
       <Container>
       <Carousel objectFit="scale-down" isAutoPlaying="true" images={images} style={{ height: 600, width: "auto" }} />

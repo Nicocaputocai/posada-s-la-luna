@@ -1,9 +1,14 @@
 import { Container, Card, Row, Col } from "react-bootstrap";
+import {Helmet} from "react-helmet"
 import FloatingWhatsApp from 'react-floating-whatsapp'
 import logo from "./assets/logo3.jpg"
 const About = () => {
   return (
     <>
+             <Helmet>
+      <title>Nosotros - Siguendo la Luna </title>
+      <meta name="description" content="Sobre nosotros - Siguiendo la Luna"/>
+    </Helmet>
       <Container>
         <br />
         <Card>

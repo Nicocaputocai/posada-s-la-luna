@@ -6,6 +6,7 @@ import {
   ListGroup,
   ListGroupItem,
 } from "react-bootstrap";
+import {Helmet} from "react-helmet"
 import FloatingWhatsApp from 'react-floating-whatsapp'
 import logo from "./assets/logo3.jpg"
 import Carousel from 'react-gallery-carousel';
@@ -16,6 +17,11 @@ const Bedrooms2 = () => {
   }));
   return (
     <>
+                 <Helmet>
+      <title>Habitaciones Dobles - Siguendo la Luna</title>
+      <meta name="description" content="Habitaciones Dobles - Siguiendo la Luna"/>
+    </Helmet>
+      <Container></Container>
       {" "}
       <br />
       <Container>
